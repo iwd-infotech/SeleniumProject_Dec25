@@ -39,8 +39,15 @@ public class BrowserLaunch {
 			System.out.println("Logged Not Successfully");
 		}
 		
+		WebElement logoutButton = driver.findElement(By.linkText("Log out"));
+		logoutButton.click();
+		
 //		Browser close
-		driver.quit();
+//		driver.quit();
+		
+		
+//		https://demo.guru99.com/test/newtours/register.php
+//		https://demo.guru99.com/test/delete_customer.php
 
 	}
 
