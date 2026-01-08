@@ -48,6 +48,7 @@ public class BrowserLaunch {
 		
 //		https://demo.guru99.com/test/newtours/register.php
 //		https://demo.guru99.com/test/delete_customer.php
+//		https://www.globalsqa.com/demo-site/draganddrop/
 
 	}
 

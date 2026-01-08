@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.BeforeMethodAnnotationDemo">
+      <class name="param.ParametrizationInTestNG">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="logoutTestCase"/>
-          <include name="afterMethod"/>
+          <include name="param"/>
         </methods>
-      </class> <!-- test.BeforeMethodAnnotationDemo -->
+      </class> <!-- param.ParametrizationInTestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
