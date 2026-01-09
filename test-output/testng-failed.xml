@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="param.ParametrizationInTestNG">
+      <class name="action.ActionClass">
         <methods>
-          <include name="param"/>
+          <include name="dragDrop"/>
         </methods>
-      </class> <!-- param.ParametrizationInTestNG -->
+      </class> <!-- action.ActionClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

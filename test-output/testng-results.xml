@@ -2,23 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-08T21:59:44 IST" name="Suite" finished-at="2026-01-08T22:00:03 IST" duration-ms="19276">
+  <suite started-at="2026-01-09T21:39:06 IST" name="Default suite" finished-at="2026-01-09T21:39:53 IST" duration-ms="47011">
     <groups>
     </groups>
-    <test started-at="2026-01-08T21:59:44 IST" name="Test" finished-at="2026-01-08T22:00:03 IST" duration-ms="19276">
-      <class name="param.ParametrizationInTestNG">
-        <test-method signature="param(java.lang.String)[pri:0, instance:param.ParametrizationInTestNG@15eb5ee5]" started-at="2026-01-08T21:59:44 IST" name="param" finished-at="2026-01-08T22:00:03 IST" duration-ms="19123" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2026-01-09T21:39:06 IST" name="Default test" finished-at="2026-01-09T21:39:53 IST" duration-ms="47011">
+      <class name="action.ActionClass">
+        <test-method signature="dragDrop()[pri:0, instance:action.ActionClass@647e447]" started-at="2026-01-09T21:39:06 IST" name="dragDrop" finished-at="2026-01-09T21:39:53 IST" duration-ms="46904" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- param -->
-      </class> <!-- param.ParametrizationInTestNG -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- dragDrop -->
+      </class> <!-- action.ActionClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

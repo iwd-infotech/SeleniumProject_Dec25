@@ -42,6 +42,7 @@ public class BrowserLaunch {
 		WebElement logoutButton = driver.findElement(By.linkText("Log out"));
 		logoutButton.click();
 		
+		
 //		Browser close
 //		driver.quit();
 		
