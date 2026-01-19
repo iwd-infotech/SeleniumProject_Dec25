@@ -12,6 +12,11 @@ public class BrowserLaunch {
 		
 		// Browser Launch 
 		WebDriver driver = new ChromeDriver();
+		
+		ChromeDriver driver2 = new ChromeDriver();
+		
+//		WebDriver driver3 = new WebDriver();
+		
 		driver.get("https://practicetestautomation.com/practice-test-login/");
 		driver.manage().window().maximize();
 		System.out.println(driver.getTitle());
@@ -50,6 +55,7 @@ public class BrowserLaunch {
 //		https://demo.guru99.com/test/newtours/register.php
 //		https://demo.guru99.com/test/delete_customer.php
 //		https://www.globalsqa.com/demo-site/draganddrop/
+//		https://the-internet.herokuapp.com/windows
 
 	}
 
